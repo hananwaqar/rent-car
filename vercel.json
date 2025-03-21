@@ -1,0 +1,11 @@
+{
+    "routes": [
+      {
+        "src": "/.well-known/(.*)",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "continue": true
+      }
+    ]
+  }
